@@ -16,8 +16,6 @@ node -v
 npm -v
 ```
 
-````
-
 If you don't have these installed, please follow the installation instructions for [Node.js](https://nodejs.org/) and [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 
 ## Installation Steps
@@ -153,14 +151,10 @@ feat(auth): add login page
 - [Husky Documentation](https://typicode.github.io/husky/)
 - [Commitlint Documentation](https://commitlint.js.org/)
 
----
-
-```
-
 ### Explanation of Sections:
+
 - Installation: Instructions for setting up the environment and installing dependencies.
 - Scripts: Descriptions of available npm scripts that help with development.
 - Commit Guidelines: Explanation of the commit message format and rules, including the types of commits.
 - Git Hooks: Overview of Husky and how it's integrated into the project for pre-commit linting and commit message validation.
 - Code Quality: Guidelines to follow when writing and committing code to maintain quality.
-````
