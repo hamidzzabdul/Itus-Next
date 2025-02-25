@@ -1,4 +1,4 @@
-import bcrypt from "bcrypt";
+import bcrypt from 'bcryptjs';
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
 
