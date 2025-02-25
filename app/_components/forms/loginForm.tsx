@@ -47,12 +47,12 @@ const LoginForm = () => {
           name="email"
           render={({ field }) => (
             <FormItem>
-              <FormLabel className="text-lg font-semibold">Email</FormLabel>
+              <FormLabel className=" font-semibold">Email</FormLabel>
               <FormControl>
                 <Input
                   placeholder="example@email.com"
                   type="email"
-                  className="w-full h-12 border border-gray-500 p-4 rounded-xl text-lg font-semibold"
+                  className="w-full h-10 border border-gray-500 p-4 rounded-lg  font-semibold"
                   {...field}
                 />
               </FormControl>
@@ -65,13 +65,11 @@ const LoginForm = () => {
           render={({ field }) => {
             return (
               <FormItem>
-                <FormLabel className="text-lg font-semibold">
-                  Password
-                </FormLabel>
+                <FormLabel className=" font-semibold">Password</FormLabel>
                 <Input
                   placeholder="Enter your password"
                   type="text"
-                  className="w-full h-12 border border-gray-500 p-4 rounded-xl text-lg font-semibold"
+                  className="w-full h-10 border border-gray-500 p-4 rounded-lg  font-semibold"
                   {...field}
                 />
               </FormItem>
@@ -81,7 +79,7 @@ const LoginForm = () => {
         <div className="w-full flex justify-end">
           <Link
             href={"/"}
-            className="text-base font-semibold text-gray-600 hover:text-black transition duration-300 border-b-black border-b  cursor-pointer"
+            className="text-sm font-semibold text-gray-600 hover:text-black transition duration-300 border-b-black border-b  cursor-pointer"
           >
             forgot password?
           </Link>
@@ -89,10 +87,10 @@ const LoginForm = () => {
         <Button type="submit">Login</Button>
       </form>
       <div className="w-full flex justify-center items-center">
-        <p className="text-black font-semibold">
-          Don&apos;t you have and account?{" "}
+        <p className="text-black font-semibold text-sm">
+          Don&apos;t have an account?{" "}
           <Link
-            href={"/register"}
+            href={"/signup"}
             className="font-bold capitalize text-primary_blue cursor-pointer"
           >
             register
